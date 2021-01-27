@@ -45,7 +45,7 @@ $ npm install lookatmyscore
 > **NOTE:** Supplied `JSON` must be structured like in the example above,
 > else API will hit you with status code 400.
 ### Output:
-```json
+```js
     {
         result: 'image',
         image: {
