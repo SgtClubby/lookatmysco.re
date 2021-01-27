@@ -59,6 +59,6 @@ $ npm install lookatmyscore
 
 ## Disclaimer
 
-This project is in not way affiliated with Osu! in any way!
+This project is in no way affiliated with Osu! in any way!
 
 [omkelderman]: https://github.com/omkelderman
