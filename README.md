@@ -1,6 +1,10 @@
 # lookatmysco.re simple nodejs wrapper
 https://lookatmyscor.re is a website / tool developed by [omkelderman][omkelderman] <br/> Used to dynamically generate images from Osu! scores.
 
+## Features
+
+- Make dynamically created topplay cards for pleasurable viewing!
+
 ## Installing
 
 Using npm:
@@ -8,10 +12,6 @@ Using npm:
 ```bash
 $ npm install lookatmyscore
 ```
-
-## Features
-
-- Make dynamically created topplay cards for pleasurable viewing!
 
 ## Examples
 
@@ -42,7 +42,7 @@ $ npm install lookatmyscore
 
     
     const res = await lookatmyscore(JSON)
-    console.log(res)
+    console.log(res.image.url) // Prints https://nicesco.re/758c7563-8ff6-4ac2-b0ba-24cb89d36ea6.png
 ```
 > **NOTE:** Supplied `JSON` must be structured like in the example above,
 > else API will hit you with status code 400.
