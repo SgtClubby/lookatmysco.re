@@ -1,11 +1,25 @@
 {
-  "name": "lookatmysco.re",
+  "name": "lookatmyscore",
   "version": "1.0.0",
+  "dependencies": {
+    "axios": "0.21.1"
+  },
   "description": "Simple node.js wrapper for https://lookatmysco.re Osu! Score visualizer.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "clomby",
-  "license": "(MIT)"
+  "author": "Erlend Volden",
+  "license": "(MIT)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SgtClubby/lookatmysco.re.git"
+  },
+  "keywords": [
+    "osugame"
+  ],
+  "bugs": {
+    "url": "https://github.com/SgtClubby/lookatmysco.re/issues"
+  },
+  "homepage": "https://github.com/SgtClubby/lookatmysco.re#readme"
 }

@@ -1,5 +1,6 @@
 const axios = require('axios')
 
+// Fucntion to check supplied json string
 function isJson(item) {
     item = typeof item !== "string"
         ? JSON.stringify(item)
