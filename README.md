@@ -20,24 +20,26 @@ $ npm install lookatmyscore
     const lookatmyscore = require('lookatmyscore');
     
     const JSON = {
-        mode: 0,
-        beatmap_id: '2469345',
+        mode: 0, // 0 = osu!std, 1 = osu!taiko, 3 = osu!catch, 4 = osu!mania
+        beatmap_id: '2469345', // Osu Beatmap ID 
         score: {
             username: 'WhiteCat',
             date: '2020-06-28 18:39:24',
-            enabled_mods: 600,
+            enabled_mods: 600, // Bitmask of mods, look https://github.com/ppy/osu-api/wiki#mods
             score: '4930126',
             maxcombo: '464',
-            rank: 'SH',
+            rank: 'SH', // accepted types are XH (SSH), X(SS), SH, S, A, B, C or D 
             count50: '0',
             count100: '7',
             count300: '330',
             countmiss: '0',
             countkatu: '6',
             countgeki: '95',
-            pp: '1089.33'
+            pp: '1089.33' // floats are always rounded to 2 decimal places
         }
     }
+
+
     
     const res = await lookatmyscore(JSON)
     console.log(res)
