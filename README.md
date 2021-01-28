@@ -20,7 +20,7 @@ $ npm install lookatmyscore
     const lookatmyscore = require('lookatmyscore');
     
     const JSON = {
-        mode: 0, // 0 = osu!std, 1 = osu!taiko, 3 = osu!catch, 4 = osu!mania
+        mode: 0, // 0 = osu!std, 1 = osu!taiko, 2 = osu!catch, 3 = osu!mania
         beatmap_id: '2469345', // Osu Beatmap ID 
         score: {
             username: 'WhiteCat',
