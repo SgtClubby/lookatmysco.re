@@ -15,7 +15,6 @@ function isJson(item) {
     if (typeof item === "object" && item !== null) {
         return true;
     }
-
     return false;
 }
 
